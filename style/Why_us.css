@@ -1,0 +1,51 @@
+.main_section .enterprise h1{
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+.main_section .enterprise p{
+    font-size: 1.4rem;
+}
+.shared{
+    position: relative;
+}
+.right_line{
+    border-right: 2px solid white;
+}
+.testimonial .shared h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.testimonial .shared p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 5rem;
+}
+.testimonial .shared a{
+    font-size: 1.2rem;
+    font-weight: 400;
+    border: 1px solid white ;
+    padding: 0.3rem 1.5rem;
+    border-radius: 0.3rem;
+}
+.main_section .content{
+    padding: 2rem;
+}
+.main_section .content h1{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 3rem;
+}
+.main_section .content p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-bottom: 5rem;
+}
+.main_section .content button{
+    font-size: 1.3rem;
+    font-weight: 200;
+    border: 1px solid gray;
+    padding: 0.5rem 2rem;
+    border-radius: 0.3rem;
+}

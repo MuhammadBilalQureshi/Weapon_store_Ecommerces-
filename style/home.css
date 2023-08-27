@@ -1,0 +1,74 @@
+ :root {
+        --color-:rgb(228, 91, 0);      
+}
+.set{
+    position: relative;
+}
+.feature_product .heading h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.content{
+    position: absolute;
+    bottom: 1.5rem;
+    color: white;
+    font-size: 1.4rem;
+    padding:0 2rem ;
+}
+.feature_product .set .content a{
+    font-size: 1rem;
+    background-color: var(--color-);
+    padding: 0.2rem 0.5rem;
+    line-height: 2.5rem;
+}
+.carrer{
+    position: relative;
+}
+.carrer_content{
+    position: absolute;
+    bottom: 3rem;
+    color: white;
+    line-height: 3.5rem;
+    padding: 0 8rem;
+}
+.carrer_content h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.carrer_content p{
+    font-size: 2rem;
+}
+.carrer_content a{
+    background-color: var(--color-);
+    font-size: 1.2rem;
+    padding: 0.5rem 2rem;
+}
+.news .heading h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.news_box{
+    position: relative;
+}
+.news_box_content{
+    position: absolute;
+    bottom: 3rem;
+    line-height: 3.5rem;
+    padding: 0 8rem;
+}
+.news_box_content h1{
+    font-size: 3.5rem;
+    color: transparent;
+    -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-color: var(--color-);
+    font-weight: bold;
+}
+.news_box_content p{
+    font-size: 1.5rem;
+    color: white;
+}
+.news_box_content a{
+    background-color: var(--color-);
+    font-size: 1.2rem;
+    padding: 0.5rem 2rem;
+}

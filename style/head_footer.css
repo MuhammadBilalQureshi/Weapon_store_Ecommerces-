@@ -1,0 +1,158 @@
+:root {
+    --color-:rgb(228, 91, 0);      
+}
+/* header*/
+.registration{
+    display: flex;
+    justify-content: center;
+}
+.registration button i{
+    font-size: 2rem;
+    color: white;
+}
+.header .navbar .uper_nav ul li:hover{
+    color: var(--color-);
+}
+.header .navbar .lower_nav ul li:hover{
+    color: var(--color-);
+}
+.header .nav_menu ul li a {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+/* header*/
+/* sign up form*/
+.sign-in{
+    color:#222; 
+    outline:none; 
+    cursor:pointer;
+    border-radius:5px;
+    }
+    .popup {
+    position: absolute; 
+    z-index: 1;
+    top:-150%;
+    left:85%; 
+    opacity:0; 
+    transform:translate(-50%, -50%) scale(1.25) ;  
+    width:380px;   
+    padding: 10px 30px; 
+    background:#fff; 
+    box-shadow:2px 2px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius:10px;
+    transition:top 0ms ease-in-out 200ms, 
+              opacity 200ms ease-in-out 0ms,
+              transform 200ms ease-in-out 0ms; 
+     }
+    .popup.active{
+    top:45%;
+    opacity:1;
+    transform:translate(-50%, -50%) scale(1);
+    transition:top 0ms ease-in-out 0ms, 
+              opacity 200ms ease-in-out 0ms,
+              transform 200ms ease-in-out 0ms; 
+    
+      }
+    
+    .close-btn { 
+    position:absolute; 
+    top: 10px;
+    right:10px; 
+    width:18px; 
+    height:18px; 
+    background: rgb(47, 46, 46); 
+    color: #eee; 
+    text-align:center; 
+    line-height:15px; 
+    border-radius:15px; 
+    cursor:pointer;
+    }
+    
+    .form h2 {
+    text-align:center; 
+    color:#140a0a;
+    font-size:25px;
+    }
+    
+    .email-input , .password-input{
+    margin:10px 4px;
+    }
+    
+    .email-input label {
+    font-size: 14px;
+    color:#222;
+    }
+    .password-input label {
+        font-size: 14px;
+        color:#222;
+        }
+    .text , .password{
+    margin-top:5px; 
+    width:100%; 
+    font-size: 0.8rem;
+    padding:10px; 
+    outline:none;
+    border:1px solid #aaa; 
+    border-radius:5px;
+    }
+    
+.remember-me { 
+          margin-bottom: 5px;
+    }
+    
+.form-button button {
+    width:70%;
+    margin: 5px 50px;
+    height:40px; 
+    border:none; 
+    outline:none; 
+    font-size:16px; 
+    background:#222; 
+    color:#f5f5f5; 
+    border-radius:10px; 
+    cursor:pointer;
+    }
+ .form-forget a { 
+    display:block;
+    text-align:center; 
+    font-size:15px;  
+    text-decoration:none;
+    margin-bottom: 50px; 
+    }
+    .sign-up a { 
+        display:block;
+        text-align:center; 
+        font-size:15px;  
+        text-decoration:none;
+        margin-top: 10px; 
+        }
+    /* sign up form*/
+    .ft_1 input[type=email]
+    {
+        width: 60%;
+        height: 5vh;
+    }
+    .ft_1 input[type=submit]
+    {
+        background-color: var(--color-);
+        width: 25%;
+        height: 5vh;
+    }
+    .ft_1 input[type=submit]:hover{
+      background-color: #aaa;   
+      border: none;
+    }
+    .ft_social ul {
+        display: flex;
+        justify-content: center;
+    }
+    .ft_social ul li {
+        list-style: none;
+        padding: 1rem 1rem;
+        font-size: 2rem;
+    }
+    .ft_social ul li a:hover{
+        color: var(--color-);
+    }
+    
+    
